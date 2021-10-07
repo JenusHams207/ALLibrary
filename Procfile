@@ -1,1 +1,1 @@
-web: ./target/debug/amalovelib.exe
+worker: cargo run
