@@ -1,1 +1,1 @@
-web: ./target/debug/amalovelib
+web: ./target/debug/amalovelib.exe
