@@ -1,0 +1,18 @@
+[package]
+name = "amalovelib"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+twilight-cache-inmemory = "0.6"
+twilight-gateway = "0.6"
+twilight-http = "0.6"
+twilight-model = "0.6"
+twilight-command-parser = { version = "0.6" }
+twilight-embed-builder = "0.6"
+futures = { version = "0.3", default-features = false }
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+anyhow = "1"
+serde = { version = "1.0", features = ["derive"] }
